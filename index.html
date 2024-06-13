@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kapil Gupta</title>
+<style>
+:root {
+  --accent-color: #03998b;
+  --bg-accent: #2f343d;
+  --text-color: #1a1a1a;
+}
+
+hr {
+  margin: 1px;
+  border: 1px dotted #fff;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--backgound-color);
+  line-height: 1;
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-family: "IBM Plex Sans", "Calibri", "Trebuchet MS", "Times New Roman";
+  font-weight: 500;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background: var(--background-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+h1 {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 200%;
+  margin: 10px;
+  padding-bottom: 0px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--accent-color);
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 120%;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+h3 {
+  color: var(--text-color);
+  font-size: 100%;
+  font-weight: 700;
+  margin: 5px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 0;
+  margin: 1px 1px;
+  font-size: 90%;
+}
+
+h4 + ul {
+  color: var(--text-color);
+  margin-left: 1.25em;
+  font-size: 95%;
+}
+
+p {
+  margin: 1px 0 1px 0;
+  padding: 0;
+  font-size: 95%;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 1px;
+  margin: 0 1.25em;
+  font-size: 95%;
+}
+
+li {
+  padding-top: 3.5px;
+}
+
+/* ul immediately after h1 = contact list */
+h1 + ul {
+  color: var(--accent-color);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+h1 + ul > li {
+  display: inline;
+  white-space: pre;
+}
+
+h1 + ul > li:after {
+  content: "  • ";
+}
+
+h1 + ul > li:last-child:after {
+  content: "";
+}
+
+/* p immediately after contact list = summary */
+h1 + ul + p {
+  margin: 1.5em 0;
+}
+
+ol {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+ol > li {
+  padding-top: 5px;
+}
+
+a,
+a:link,
+a:visited {
+  color: var(--accent-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.link {
+  display: inline;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.technologies {
+  font-weight: 500;
+  color: var(--accent-color);
+  font-size: 13px;
+}
+.marks {
+  font-weight: 700;
+  display: inline;
+}
+.ed-heading {
+  margin: 0;
+  padding: 0;
+}
+.skills {
+  margin: 2px;
+}
+
+code {
+  font-family: "IBM Plex Sans";
+  font-size: 80%;
+  font-weight: 500;
+  background-color: rgba(3, 153, 139, 15%);
+  padding: 0px 3px 0px 3px;
+  border-radius: 4px;
+}
+
+@media print {
+  body {
+    font-size: 11.4pt;
+    line-height: 1.11;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 15px 7.5px 15px 7.5px;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: var(--accent-color);
+    font-weight: 500;
+  }
+}
+@page {
+  size: letter;
+  margin: 0.2in 0.2in 0.1in 0.2in;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .project-heading {
+    font-size: 15px;
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<h1>Kapil Gupta</h1>
+<ul>
+<li><a href="mailto:kapilgupta2358@gmail.com">kapilgupta2358@gmail.com</a></li>
+<li><a href="https://github.com/erkapil2001">Github</a></li>
+<li><a href="https://www.linkedin.com/in/kapilk761/">Linkedin</a></li>
+<li><a href="https://leetcode.com/">Leetcode</a></li>
+</ul>
+<h2>Education</h2>
+<h3><span class="ed-heading">Bachelor of Technology in Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 </span></h3>
+<p>Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India</p>
+
+<h2>Experience</h2>
+<h3>The sparks foundation' - Internship <span class="technologies">February 2023 &ndash; march 2023</span></h3>
+<ul>
+<li>I worked on <strong>Html, TailwindCSS & JavaScript</strong> for enhance UI, add features,& functionality </li>
+</ul>
+<h3>Eight-Week training on Web Development from-'INTERNSHALA' <span class="technologies">December 2022 &ndash;Janubary 2023 </span></h3>
+<ul><li>I worked on the college website and used  &amp; <strong>Html,TailwindCSS & React.js</strong> with team works.</li>
+</ul>
+
+<h2>Skills &amp; Technologies</h2>
+<p>Languages &ensp;&ensp; <code>JavaScript</code> <code>C++</code> <code>Python</code></p>
+<p>Frontend &ensp;&ensp; &ensp;<code>React.js</code>:: <code>HTML</code> <code>Material UI</code> <code>Tailwind CSS</code></p>
+<p>Backend &ensp;&ensp;&ensp;&ensp;<code>Node &amp; Express</code>:: <code>MongoDB</code> <code>MySQL</code></p>
+<p>Coursework&ensp; <code>Data Structures &amp; Algorithms</code> <code>OOPs</code> <code>DBMS</code> <code>OS</code> <code>Computer Networks</code></p>
+<h2>Projects</h2>
+
+<h3><span class="project-heading">RazorPay clone <div class="link"><a href="https://github.com/erkapil2001/razarPayClone">GitHub</a> <a href="https://aquamarine-douhua-aa013c.netlify.app/">Deployed</a></div></span></h3>
+<p>Implemented a prototype that showcased proficiency in frontend development concentrating on design and user interface.</p>
+<ul>
+<li>Built with <strong>Html & TailwindCSS </strong>on the frontend with using <strong> Material UI.</strong></li>
+<li>Deployed using <strong>netlify</strong> with a <strong>.free</strong> Domain.</li>
+</ul>
+
+<h3><span class="project-heading">WeatherApp<div class="link"><a href="https://github.com/erkapil2001/weatherapp">GitHub</a> <a href="https://jocular-paprenjak-1dfd06.netlify.app/">Deployed</a></div></span></h3>
+<p>An Application that allows one to track the weather of any location .</p>
+<ul>
+<li>Built with <strong>Html, JavaScript & TailwindCSS .</strong></li>
+<li>Deployed using <strong>netlify</strong> with a <strong>.free</strong> Domain.</li>
+</ul>
+
+<h2>Certificates</h2>
+<ul>
+
+<li>C++ Programming from <a href="https://www.udemy.com/certificate/UC-043217df-e547-418b-b92f-8136c05581c7/"><strong>'Udemy'</strong></a></li>
+<li>Python Programming from <a href="https://www.udemy.com/certificate/UC-daeb21cf-6842-41d8-9fcc-4216912ebe2b/"><strong>'Udemy'</strong></a></li>
+<li>Sql Programming from <a href="#"><strong>'Udemy'</strong></a></li>
+</ul>
+<!-- - Qualifed for CodeChef **SnackDown Pre-Elimination Round** -->
+</div>
+</body>
+</html>
